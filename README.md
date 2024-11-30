@@ -1,1 +1,1 @@
-# React_Course
+# React + Redux
