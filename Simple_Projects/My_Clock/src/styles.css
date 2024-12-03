@@ -1,0 +1,23 @@
+.clock-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.clock-header {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.clock-description {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.clock-time {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.time-value {
+    font-weight: bold;
+}
