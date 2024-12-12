@@ -1,8 +1,7 @@
-import React from "react";
 import styles from "./../styles/Display.module.css";
 
-const Display = ({ value }) => {
-    return <div className={styles.display}>{value}</div>;
+const Display = () => {
+    return <input className={styles.display} type="text" />
 };
 
 export default Display;

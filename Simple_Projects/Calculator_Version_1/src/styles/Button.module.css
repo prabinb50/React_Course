@@ -1,19 +1,11 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .button {
-    flex: 1;
-    margin: 5px;
-    height: 50px;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: #f0f0f0;
-    transition: background-color 0.3s;
-}
-
-.button:hover {
-    background-color: #ddd;
-}
-
-.button:active {
-    background-color: #bbb;
+    height: 45px;
+    width: 45px;
+    margin: 3px;
 }
