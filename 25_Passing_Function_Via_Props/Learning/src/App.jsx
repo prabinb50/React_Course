@@ -10,9 +10,7 @@ import { useState } from "react";
 function App() {
   let foodItems = ["Salad", "Green Vegatables", "Milk", "Whole Grains", "Meat", "Ghee"];
 
-  let textStateArr = useState('Fooditem Entered by User');
-  let textToShow = textStateArr[0]; // current value
-  let setTextState = textStateArr[1];
+  let [textToShow, setTextState] = useState('Fooditem Entered by User');
 
   const handleOnChange = (event) => {
     console.log(event.target.value);
