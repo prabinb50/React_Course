@@ -1,10 +1,10 @@
 import styles from "./Item.module.css";
 
-function Item({ foodItems, handleBuyButton }) {
+function Item({ foodItems, bought, handleBuyButton }) {
 
     return (
         <li key={foodItems}
-            className={`${styles["kg-item"]} list-group-item`}>{foodItems}
+            className={`${styles["kg-item"]} list-group-item ${bought && 'active'}`}>{foodItems}
 
             <button className={`${styles.button} btn btn-outline-dark`} onClick={handleBuyButton}>Buy</button>
         </li>
@@ -12,3 +12,4 @@ function Item({ foodItems, handleBuyButton }) {
 }
 
 export default Item;
+
