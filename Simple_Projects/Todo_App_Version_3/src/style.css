@@ -21,3 +21,9 @@ input {
     min-width: 80px;
     margin-right: 7rem;
 }
+
+.welcome {
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
