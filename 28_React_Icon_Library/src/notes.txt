@@ -1,5 +1,35 @@
+// React-Icon Library
 1. We can use a lot od icons without managing them.
 2. Install Package
     npm install react-icons - save
 3. Use icons
     import {IconName} from "react-icons/fc";
+
+
+
+// Inspecting with React Dev Tools
+1. Inspection: Allows inspection of React component hierarchies.
+2. State & Props: View and edit the current state and props of components
+3. Performance: Analyze component re-renders and Performance bottlenecks.
+4. Navigation: Coveniently navigate through the entire component tree.
+5. Filtering: Filter components by name or source to locate them quickly.
+6. Real-time Feedback: See live changes as you modify state or props.
+
+
+
+
+// How React Works
+Root Component: 
+    • The App is the main or root component of a React application.
+    • It's the starting point of your React component tree.
+
+Virtual DOM:
+    • React creates an in-memory structure called the virtual DOM.
+    • Different from the actual browser DOM.
+    • It's a lightweight representation where each node stands for a component and its attributes.
+
+Reconciliation Process:
+    • When component data changes, React updates the virtual DOM's state to mirror these changes.
+    • React then compares the current and previous versions of the virtual DOM.
+    • It identifies the specific nodes that need updating.
+    • Only these nodes are updated in the real browser DOM, making it efficient.
