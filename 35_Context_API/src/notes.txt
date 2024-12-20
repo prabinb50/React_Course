@@ -1,17 +1,8 @@
-// 33. Use Ref
-1. useRef allows access to DOM elements and retains mutable values without re-renders.
-
-2. Used with the ref attribute for direct DOM interactions.
-
-3. Can hold previous state or prop values.
-
-4. Not limited to DOM references; can hold any value.
-
-5. Refs can be passed as props also
-
-
-
-// 34. Update state from Previous State
-- Spread Operator: Use to maintain immutability when updating arrays or objects.
-
-- Functional Updates: Use (existingPosts) => [postData, ...existingPosts] to avoid stale values during asynchronous updates.
+1. Prop Drilling: Context API addresses prop drilling; component composition is an alternative.
+2. Folder Setup: Use a store folder for context files.
+3. Initialization: Use React.createContext with initial state and export it.
+4. Provider: Implement with contextName.Provider in components.
+5. Access Value: Use the useContext hook.
+6. Dynamic Data: Combine context value with state.
+7. Export Functions: Context can also export functions for actions
+8. Logic Separation: This helps keep the UI and business logic separate from each other.
