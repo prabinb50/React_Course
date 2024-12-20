@@ -1,0 +1,29 @@
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+}
+
+.items-container {
+    text-align: left;
+}
+
+.py-row {
+    margin: 10px 5px;
+}
+
+.py-button {
+    min-width: 80px;
+    margin-right: 7rem;
+}
+
+.welcome {
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
