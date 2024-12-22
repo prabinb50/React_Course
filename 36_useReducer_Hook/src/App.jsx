@@ -42,10 +42,6 @@ function App() {
       }
     }
     dispatchTodoItems(deleteItemAction);
-    // setTodoItems((currentValue) => {
-    //   const newTodoItems = [...currentValue, { name: itemName, date: itemDate }]
-    //   return newTodoItems;
-    // });
   }
 
   return (
