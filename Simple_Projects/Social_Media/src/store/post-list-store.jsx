@@ -1,12 +1,6 @@
 import { createContext, useReducer } from "react";
 
-// const DEFAULT_CONTEXT = {
-//     postList: [],
-//     addPost: () => { },
-//     deletePost: () => { }
-// }
-
-const PostList = createContext({
+export const PostList = createContext({
     postList: [],
     addPost: () => { },
     deletePost: () => { }
@@ -18,7 +12,7 @@ const postListReducer = (currentPostList, action) => {
 
 const PostListProvider = ({ children }) => {
 
-    const [postList, dispatchPostList] = useReducer(postListReducer, []);
+    const [postList, dispatchPostList] = useReducer(postListReducer, DEFAULT_POST_LIST);
 
     const addPost = () => {
 
@@ -36,5 +30,22 @@ const PostListProvider = ({ children }) => {
         {children}
     </PostList.Provider >
 }
+
+const DEFAULT_POST_LIST = [{
+    id: '1',
+    title: 'Going to America',
+    body: 'Hi Friends, I am going to America for my vacations.',
+    reaction: 2,
+    userId: 'user-9',
+    tags: ['Vacation', 'America', 'Enjoying']
+},
+{
+    id: '2',
+    title: 'Prabin Joshi',
+    body: 'My permanent address is Dhangdhai, Kailali.',
+    reaction: 5,
+    userId: 'user-11',
+    tags: ['Address', 'Name']
+}]
 
 export default PostListProvider;
