@@ -12,8 +12,19 @@
 
 .post-card {
     margin: 20px 50px;
+
 }
 
 .hastag {
     margin: 0px 3px;
+}
+
+.reactions {
+    margin: 15px 0 0 0;
+}
+
+.create-post {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
 }
