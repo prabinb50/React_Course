@@ -157,3 +157,9 @@ Welcome to my **React Course Repository**! This repository contains all the mate
 1. Clone the repository:
    ```bash
    git clone https://github.com/prabinb50/React_Course.git
+   
+2. Navigate to the project directory:
+   cd React_Course
+   
+
+   
