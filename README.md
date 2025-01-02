@@ -136,11 +136,6 @@ Welcome to my **React Course Repository**! This repository contains all the mate
   - Why Redux Toolkit is needed.
   - Working with Redux Toolkit.
 
-### Major Project
-
-8. **Myntra Clone**
-   - A full-scale e-commerce application using a real backend.
-
 ---
 
 ## Repository Structure
