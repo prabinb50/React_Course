@@ -1,0 +1,9 @@
+1. Memoization: Preserves function across renders to prevent unnecessary re-renders.
+
+2. Optimization: Enhances performance in components with frequent updates.
+
+3. Dependency Array: Recreates the functiononly when specific dependencies change.
+
+4. Event Handlers: Used to keep consistent function references for child components.
+
+5. With useEffect: Prevents infinite loops by maintaining function references.
