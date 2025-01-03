@@ -9,3 +9,15 @@
 5. Declarative Routing: Easily define application routes.
 
 6. Routes are React components.
+
+
+### Layout Routes
+1. Layout Routes help us to use shared elements
+2. Outlet component is used to render the children at the correct places
+
+
+### Route Links
+1. Link Component with to property can be used to avoid reloading
+2. useNavigate hook can be used to do navigation programmatically
+
+
