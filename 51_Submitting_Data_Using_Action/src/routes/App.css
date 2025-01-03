@@ -1,0 +1,50 @@
+.app-container {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+}
+
+.sidebar {
+    min-height: 800px;
+}
+
+.post-card {
+    margin: 20px 50px;
+
+}
+
+.hastag {
+    margin: 0px 3px;
+}
+
+.reactions {
+    margin: 15px 0 0 0;
+}
+
+.create-post {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.wel-mess {
+    margin: 100px 0;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* Full viewport height */
+    width: 90vw;
+    /* Full viewport width */
+    flex-wrap: wrap;
+    /* Allow spinners to wrap onto the next line */
+    gap: 1rem;
+    /* Space between spinners */
+    background-color: #f8f9fa;
+    /* Optional background color */
+}
