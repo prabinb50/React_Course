@@ -49,10 +49,8 @@ export async function createPostAction(data) {
         .then(post => {
             // addPost(post)
             console.log(post);
-
         });
     return redirect("/");
 }
-
 
 export default CreatePost;
