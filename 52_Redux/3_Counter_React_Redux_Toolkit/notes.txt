@@ -1,0 +1,27 @@
+#### Why Redux Toolkit
+1. Action types are difficult to maintain
+2. Store becoming too big
+3. Mistakenly editing store
+4. Reducer becoming too big
+
+
+#### Working with Redux Toolkit
+1. Npminstall @reduxjs/toolkit
+2. Remove redux from package.json
+3. Import {createSlice} from “@reduxjs/toolkit”
+4. Slices of the store can be created using the following syntax:
+    Const slice = createSlice({
+        name: ‘’,
+        initialState: {},  
+        reducers: {
+        smallReducerMethods: (state, action) => {
+        },
+        }
+    })
+5. ConfigureStore combines multiple reducers and can be used as: 
+    configureStore({
+        reducer: {name: slice.reducer}
+    })
+6. Export actions = slice.actions;
+7. Actions can be dispatched like: actions.reducerMethod(payload);
+
