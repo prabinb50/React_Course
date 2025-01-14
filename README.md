@@ -6,10 +6,6 @@ Welcome to my **React Course Repository**! This repository contains all the mate
 
 ## Course Content
 
-### Introduction
-
-- Overview of the course and its objectives.
-
 ### Create React App
 
 - Topics covered:
